@@ -1,0 +1,36 @@
+{
+  "name": "project-backend",
+  "version": "1.0.0",
+  "description": "projeto feito para estudar e treinar a tecnologia node/backend",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ketlynbl/project-backend.git"
+  },
+  "keywords": [
+    "backend",
+    "estudos",
+    "node",
+    "api"
+  ],
+  "author": "Ketlyn B Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ketlynbl/project-backend/issues"
+  },
+  "homepage": "https://github.com/Ketlynbl/project-backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.5",
+    "sequelize": "^6.37.7"
+  }
+}
