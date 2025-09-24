@@ -1,10 +1,10 @@
 import express from 'express';
-import listUsersController from './controllers/list-users-controller.js';
-import listProductsConttroller from './controllers/list-products-controller.js';
+import listUsersController from './controllers/user-controllers/list-users-controller.js';
+import listProductsConttroller from './controllers/porducts-controllers/list-products-controller.js';
 import greetingsController from './controllers/greetings-controller.js';
-import createUserController from './controllers/create-user-controller.js';
-import updateUserController from './controllers/update-user-controller.js';
-import deleteUserController from './controllers/delete-user-controller.js';
+import createUserController from './controllers/user-controllers/create-user-controller.js';
+import updateUserController from './controllers/user-controllers/update-user-controller.js';
+import deleteUserController from './controllers/user-controllers/delete-user-controller.js';
 
 const app = express();
 
